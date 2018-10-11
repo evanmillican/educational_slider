@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.quiz-min.css">
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 </head>
 <body>
@@ -23,9 +24,9 @@
 
           <div id="scene">
             <div data-depth="0.5" class="header"><h1>Happy Halloween!</h1></div>
-            <div data-depth="0.1" class="intro"><h2>Swipe through to learn more about Halloween's spooky history!</h2></div>
+            <div data-depth="0.2" class="intro"><h2>Swipe through to learn more about Halloween's spooky history!</h2></div>
             <div data-depth="5.0"><img src="../img/ghost.png" id="ghost"></div>
-            <div data-depth="0.2"><img src="../img/graveyard.png" id="graveyard"></div>
+            <div data-depth="0.1"><img src="../img/graveyard.png" id="graveyard"></div>
             <div data-depth="9.0"><img src="../img/witch.png" id="witch"></div>
           </div>
 
@@ -73,7 +74,10 @@
               <h1>Trick or Treating</h1>
             </div>
             <div class="text">
+              <p>The tradition of trick or treating stemmed from a combination of English and Irish customs, which included dressing up and going door to door asking for food or money.</p>
 
+              <p>In the late 1800s, Halloween began to transform into a community celebration that focused on parties and costumes, instead of witchcraft, ghosts, and mischief. By the beginning of the twentieth century, Halloween had lost most of its religious and superstitious association.
+              </p>
             </div>
           </div>
 
@@ -82,16 +86,25 @@
               <h1>Jack-o-Lanterns</h1>
             </div>
             <div class="text">
+              <p>Jack-o-lanterns originated in Ireland and were based off of the legend of a man named Stingy Jack. The legend goes that Stingy Jack did not want to go to hell, so he trapped the devil in order to make a deal with him. However, he later found out that he did not belong in heaven, due to his devilish nature. So, he was forced to walk the earth as a ghost for all of eternity. The devil gifted Jack some burning coal, which he put in a carved out turnip to light his way.</p>
 
+              <p>Locals began using other gourds, including pumpkins, to carve faces into, as to ward off evil spirits, and thus began the tradition of the jack-o-lantern.</p>
             </div>
           </div>
 
           <div>
             <div class="slide-title">
               <h1>Quiz</h1>
-            </div>
-            <div class="text">
-
+              <div id="quiz">
+                <div id="quiz-header">
+                  <h2>Test your Halloween knowledge.</h2>
+                </div>
+                <div id="quiz-start-screen">
+                  <p>
+                    <a href="#" id="quiz-start-btn" class="quiz-button">Start Quiz</a>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -117,7 +130,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <script src="js/jquery.fittext.js"></script>
+  <script src="js/jquery.quiz-min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
