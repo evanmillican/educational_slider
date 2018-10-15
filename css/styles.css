@@ -45,11 +45,29 @@ body {
   top: 0;
 }
 
+#celtic-cross {
+  width: 150px;
+}
+
+#trick-or-treat {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding: 30px;
+  justify-content: center;
+}
+
+#jackolantern {
+  width: 100%;
+  max-width: 250px;
+}
+
 #scene {
   background: #000;
   text-align: center;
   justify-content: center;
 }
+
 
 h1 {
   font-size: 6vw;
@@ -76,6 +94,10 @@ p {
   font-size: 15px;
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
